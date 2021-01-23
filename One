@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+</head>
+<!-- The above extra text (DOCTYPE, html lang, head, head, meta) is done to stop Firefox throwing up an error-->
+<!-- Test this in https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default     (just HTML)-->
+This text <b>should be bold</b>
+<!--Below, anything betweek the script tags is Javascirpt -->
+
+<body>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+
+<script>
+console.log("text from script");
+var canvas, canvasContext;
+
+window.onload = function() {
+canvas = document.getElementById('gamecanvas');
+canvas.Context = canvas.getContext('2d');
+
+var framesPerSecond = 30;
+setInterval(updateAll, 1000/framesPerSecond);
+
+canvas.Context.fillStyle = 'black';
+canvasContext.fillRect(0,0, canvas.width, canvas.height);
+
+canvasContext.fillstyle = 'white';
+canvasContext.beginPath();
+canvasContext.arc(100,100, 10, 0,Math.PI*2, true);
+canvasContext.fill();
+
+}
+
+function updateAll() {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+</head>
+<!-- The above extra text (DOCTYPE, html lang, head, head, meta) is done to stop Firefox throwing up an error-->
+<!-- Test this in https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default     (just HTML)-->
+This text <b>should be bold</b>
+<!--Below, anything betweek the script tags is Javascirpt -->
+
+<body>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+
+<script>
+var canvas, canvasContext;
+
+window.onload = function() {
+canvas = document.getElementById('gamecanvas');
+canvas.Context = canvas.getContext('2d');
+
+var framesPerSecond = 30;
+setInterval(updateAll, 1000/framesPerSecond);
+}
+
+function updateAll() {
+canvas.Context.fillStyle = 'black';
+canvasContext.fillRect(0,0, canvas.width, canvas.height);
+
+canvasContext.fillstyle = 'white';
+canvasContext.beginPath();
+canvasContext.arc(100,100, 10, 0,Math.PI*2, true);
+canvasContext.fill();
+
+}
+
+</script>
+
+<body
+</html>
+}
+
+</script>
+
+<body
+</html>
